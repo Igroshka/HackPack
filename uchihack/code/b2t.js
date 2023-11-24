@@ -141,10 +141,9 @@ async function main() {
 
     UchiHack = {};
     UchiHack.type = "b2t";
-    UchiHack.version = "v2.4.0";
-    l_exinfo(`Версия ${UchiHack.version} (Сделано TheAirBlow)`, UchiHack.style1, UchiHack.style5);
-    l_exinfo("Сначало было на Github Gists, потом перенесено на Github", UchiHack.style1, UchiHack.style5);
-    l_exinfo("Ссылка: https://github.com/theairblow/hackpack/ ", UchiHack.style1, UchiHack.style5);
+    UchiHack.version = "v2.4.5";
+    l_exinfo(`Версия ${UchiHack.version} (Сделано YUFI)`, UchiHack.style1, UchiHack.style5);
+    l_exinfo("Ссылка: https://github.com/igroshka/hackpack/ ", UchiHack.style1, UchiHack.style5);
 
     await main();
 })();
