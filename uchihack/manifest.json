@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "UchiHack",
-    "version": "2.4.1",
+    "name": "UchiDone",
+    "version": "2.4.5",
 
-    "author": "TheAirBlow",
-    "description": "Injects UchiHack v2.4.1",
+    "author": "YUFI",
+    "description": "Injects UchiDone v2.4.5",
     "permissions": [ "<all_urls>", "tabs", "activeTab", "storage", "webNavigation" ],
 
     "background": {
