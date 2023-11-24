@@ -190,11 +190,10 @@ function main() {
 
     UchiHack = {};
     UchiHack.type = "card";
-    UchiHack.version = "v2.4.0";
+    UchiHack.version = "v2.4.5";
 
-    l_exinfo(`Версия ${UchiHack.version} (Сделано TheAirBlow)`);
-    l_exinfo("Сначало было на Github Gists, потом перенесено на Github");
-    l_exinfo("Ссылка: https://github.com/theairblow/hackpack/");
+    l_exinfo(`Версия ${UchiHack.version} (Сделано YUFI)`);
+    l_exinfo("Ссылка: https://github.com/igroshka/hackpack/");
 
     main();
 })();
