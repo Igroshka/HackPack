@@ -3,7 +3,7 @@ function main() {
     // Ждем когда "__score" загрузится
     if (typeof Card === 'undefined' || typeof Card.Player === 'undefined'
         || typeof Card.Player.__score === 'undefined') {
-        setTimeout(main, 50);
+        setTimeout(main, 100);
         return;
     }
 
@@ -142,8 +142,8 @@ function main() {
         // Статус и версия
         var obj3 = $("<div>").css("position", "relative").css("border", "1px solid white").css("background", "#ffffff")
             .css("border-radius", "20px").css("top", "-25px").css("padding", "0 8px 0 8px").css("width", "max-content").css("margin", "auto").css("margin-top", "5px")
-            .append($("<a>").append(`<a style=\"cursor: pointer;\" href="https://github.com/TheAirBlow/HackPack/tree/main/uchihack" target="_blank">UchiHack ${UchiHack.version}</a>`)
-                .append($("<span style=\"color: black;\"> | Статус: </span>")).append($(`<span style=\"color: ${color};\">${status}</span>`)));
+            .append($("<a>").append(`<a style=\"cursor: pointer;\" href="https://yufi.rf.gd" target="_blank">UchiDone ${UchiHack.version}</a>`)
+                .append($("<span style=\"color: black;\"> | YUFI | Статус: </span>")).append($(`<span style=\"color: ${color};\">${status}</span>`)));
 
         // Решить текущее задание
         var obj2 = $("<div>").css("position", "relative").css("border", "1px solid white").css("background", "#ffffff").css("left", "86%")
