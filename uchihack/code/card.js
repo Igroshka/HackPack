@@ -132,9 +132,9 @@ function main() {
     // Кнопки
     if (UchiHack.status !== "Решаем") {
         // Решить всю карточку
-        var root = $("<div>").css("margin", "-20px auto 20px").css("width", "960px");
+        var root = $("<div>").css("margin", "-15px 5px 0px 5px").css("width", "960px");
         var obj1 = $("<div>").css("position", "relative").css("border", "1px solid white").css("background", "#ffffff")
-            .css("border-radius", "20px").css("padding", "0 8px 0 8px").css("margin-top", "5px").css("width", "max-content")
+            .css("border-radius", "20px").css("padding", "0 8px 0 8px").css("width", "max-content").css("margin-top", "5px")
             .append($("<a>").append($("<span>").css("cursor", "pointer").text("Решить карточку")).on("click", function () {
                 solve_all();
             }));
